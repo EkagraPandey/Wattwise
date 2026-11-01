@@ -1,0 +1,83 @@
+{
+  "final_model": "Linear Regression",
+  "features": [
+    "city",
+    "season",
+    "Fan",
+    "Refrigerator",
+    "AirConditioner",
+    "Television",
+    "Monitor"
+  ],
+  "target": "monthly_total_kwh",
+  "tariff_by_city": {
+    "Ahmedabad": 7.9,
+    "Chennai": 8.8,
+    "Dahej": 7.6,
+    "Faridabad": 8.1,
+    "Gurgaon": 8.3,
+    "Hyderabad": 8.4,
+    "Kolkata": 8.7,
+    "Mumbai": 9.2,
+    "Nagpur": 8.9,
+    "Navi Mumbai": 9.3,
+    "New Delhi": 8.5,
+    "Noida": 8.2,
+    "Pune": 9.1,
+    "Ratnagiri": 7.4,
+    "Shimla": 7.7,
+    "Vadodara": 7.8
+  },
+  "cities": [
+    "Ahmedabad",
+    "Chennai",
+    "Dahej",
+    "Faridabad",
+    "Gurgaon",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Nagpur",
+    "Navi Mumbai",
+    "New Delhi",
+    "Noida",
+    "Pune",
+    "Ratnagiri",
+    "Shimla",
+    "Vadodara"
+  ],
+  "seasons": [
+    "Autumn",
+    "Monsoon",
+    "Spring",
+    "Summer",
+    "Winter"
+  ],
+  "ranges": {
+    "Fan": [
+      5.0,
+      23.0
+    ],
+    "Refrigerator": [
+      17.0,
+      23.0
+    ],
+    "AirConditioner": [
+      0.0,
+      3.0
+    ],
+    "Television": [
+      3.0,
+      22.0
+    ],
+    "Monitor": [
+      1.0,
+      12.0
+    ]
+  },
+  "monitor_values": [
+    1.0,
+    7.0,
+    12.0
+  ]
+}
